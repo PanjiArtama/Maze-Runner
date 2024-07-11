@@ -7,6 +7,7 @@ TagManager:
   - CinemachineTarget
   - Wall
   - Monster
+  - WayPoints
   layers:
   - Default
   - TransparentFX
