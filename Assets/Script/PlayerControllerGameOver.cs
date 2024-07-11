@@ -35,8 +35,7 @@ public class PlayerControllerGameOver : MonoBehaviour
     private void GameOver()
     {
         gameIsOver = true;
-        // Lakukan tindakan game over di sini, misalnya:
         Debug.Log("Game Over! Kamu terlalu dekat dengan monster.");
-        // Tambahan logika untuk menghentikan permainan, menampilkan UI game over, dll.
+        FindObjectOfType<SceneManagerScript>().LoadGameOverScene();
     }
 }
