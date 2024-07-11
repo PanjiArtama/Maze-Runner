@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TimerSettings : MonoBehaviour
 {
@@ -32,6 +33,8 @@ public class TimerSettings : MonoBehaviour
         if(GameAktif && Waktu <= 0)
         {
             Debug.Log("Game Kalah");
+             // Pindah ke scene "Game Over"
+            SceneManager.LoadScene("GameOverScene"); //
             GameAktif = false;
         }
 

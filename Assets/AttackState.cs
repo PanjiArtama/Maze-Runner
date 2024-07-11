@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AttackState : StateMachineBehaviour
 {
@@ -16,8 +17,12 @@ public class AttackState : StateMachineBehaviour
     {
         animator.transform.LookAt(player);
        float distance = Vector3.Distance(player.position, animator.transform.position);
-        if(distance > 3.5f)
+        if(distance < 2f)
             animator.SetBool("isAttacking", false);
+            Debug.Log("Game Kalah");
+            // Atur kondisi game selesai
+            // Pindah ke scene "Game Over"
+            SceneManager.LoadScene("GameOverScene");
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
