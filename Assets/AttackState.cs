@@ -18,11 +18,11 @@ public class AttackState : StateMachineBehaviour
         animator.transform.LookAt(player);
        float distance = Vector3.Distance(player.position, animator.transform.position);
         if(distance < 2f)
-            animator.SetBool("isAttacking", false)
+            animator.SetBool("isAttacking", false);
             Debug.Log("Game Kalah");
             // Atur kondisi game selesai
             // Pindah ke scene "Game Over"
-            SceneManager.LoadScene("GameOverScene");;
+            SceneManager.LoadScene("GameOverScene");
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
