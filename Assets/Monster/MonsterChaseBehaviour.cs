@@ -38,7 +38,7 @@ public class MonsterChaseBehaviour : MonoBehaviour
         }
 
         // Hitung arah menuju pemain, hanya pada sumbu x dan z
-        Vector3 directionToPlayer = new Vector3(player.position.x - transform.position.x, 0, player.position.z - transform.position.z);
+        Vector3 directionToPlayer = new Vector3(player.position.x - transform.position.x, player.position.y - transform.position.y, player.position.z - transform.position.z);
 
         // Hitung gaya penghindaran dari tembok menggunakan Raycast
         Vector3 avoidanceForce = Vector3.zero;
