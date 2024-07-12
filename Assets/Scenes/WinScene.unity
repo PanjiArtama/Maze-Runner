@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -863,8 +863,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961739749}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.024592157, y: -0.008537815, z: 0.0015134787, w: -0.99966}
-  m_LocalPosition: {x: 516.0961, y: 276.8172, z: -131.53027}
+  m_LocalRotation: {x: 0.019405343, y: -0.006312699, z: 0.000036995254, w: 0.99979174}
+  m_LocalPosition: {x: 384.50732, y: 203.85443, z: -256.04602}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -998,7 +998,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &1292533330
 Canvas:
   m_ObjectHideFlags: 0
@@ -1008,7 +1008,7 @@ Canvas:
   m_GameObject: {fileID: 1292533327}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 2
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -1031,7 +1031,7 @@ RectTransform:
   m_GameObject: {fileID: 1292533327}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.33860037, y: 0.33860037, z: 0.33860037}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 894877534}
@@ -1042,9 +1042,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 398, y: 182}
+  m_SizeDelta: {x: 2350.854, y: 1075.0135}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1292533332
 AudioSource:
   m_ObjectHideFlags: 0
